@@ -1,0 +1,39 @@
+@"
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+predictions.log
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Data volumineuses (utiliser DVC à la place)
+data/
+data_preprocessed/
+asl-signs/
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+"@ | Out-File -FilePath .gitignore -Encoding UTF8
