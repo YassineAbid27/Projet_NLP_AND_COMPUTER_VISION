@@ -37,3 +37,4 @@ asl-signs/
 # Jupyter
 .ipynb_checkpoints/
 "@ | Out-File -FilePath .gitignore -Encoding UTF8
+/my_model.h5
