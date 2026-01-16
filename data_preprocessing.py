@@ -6,12 +6,12 @@ from glob import glob
 # ----------------------------
 # Configuration
 # ----------------------------
-TRAIN_CSV = r"C:\Users\hamdi\Desktop\ASL\asl-signs\train.csv"
-TRAIN_LANDMARK_FILES = r"C:\Users\hamdi\Desktop\ASL\asl-signs\train_landmark_files"
-OUTPUT_DIR = r"C:\Users\hamdi\Sign-Language-Translator\data_preprocessed"
+#TRAIN_CSV = r"C:\Users\yassine\Desktop\ASL\asl-signs\train.csv"
+#TRAIN_LANDMARK_FILES = r"C:\Users\yassine\NLP_project\asl-signs\train_landmark_files"
+#OUTPUT_DIR = r"C:\Users\yassine\NLP_project\data_preprocessed"
 
 # Number of frames to sample per Parquet file
-FRAMES_PER_SEQUENCE = 10
+#FRAMES_PER_SEQUENCE = 10
 
 # We'll only pivot on these 'type' values
 TYPES_OF_INTEREST = ["left_hand", "right_hand"]

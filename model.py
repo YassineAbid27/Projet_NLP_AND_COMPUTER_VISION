@@ -22,7 +22,7 @@ else:
 # Path to your preprocessed data directory
 PATH = os.path.join('data')  
 # Adjust if needed, e.g.:
-# PATH = r"C:\Users\hamdi\Sign-Language-Translator\data_preprocessed"
+# PATH = r"C:\Users\yassine\Sign-Language-Translator\data_preprocessed"
 
 # ----------------------------
 # 1) Gather Sign Labels Dynamically
